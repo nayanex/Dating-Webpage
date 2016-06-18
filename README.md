@@ -90,7 +90,7 @@ Important notes
 
 * For this part, style rules are applied appropriately so that the web page has the visual style required by the company. The result of part 2 will look like this when viewed in a browser.
 
-![Dating Website Form](Screenshots/DatingWebsiteForm.pnxg?raw=true "Dating Website Form")
+![Dating Website Form](Screenshots/DatingWebsiteForm.png?raw=true "Dating Website Form")
 
 Here are important notes from the designer passed to you by the company. You must use this information in your work.
 
