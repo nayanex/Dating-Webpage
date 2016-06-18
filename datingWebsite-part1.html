@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dating Website</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Nayana Holanda de Abreu">
+	<meta name="description" content="dating website">
+	<meta name="keywords" content="dating, love, soulmate">
+	<style>
+	</style>
+</head>
+<body>
+	<h1>Please Enter Your Details For Our Dating Website!</h1>
+	<form action"http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post"
+		  enctype="multipart/form-data">
+		<fieldset>
+			<legend>Your Face</legend>
+			<label for="avatar">Your image:</label>
+			<input type="file" name="avatar" id="avatar" required><br>
+			Image preview:
+			<img id="preview" src="">
+		</fieldset><br>
+		<fieldset>
+			<legend>Your General Details</legend>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" required><br>
+			Gender:
+			<input type="radio" name="gender" id="male" value="male" required>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="female" value="female" required>
+			<label for="female">Female</label>
+			<br>
+			<label for="age">Age:</label>
+			<input type="number" name="age" id="age" min="18" max"150" required><br>
+			<label for="birthday">Date of birth:</label>
+			<input type="date" name="birthday" id="birthday"><br>
+			<label for="favColor">Favorite color:</label>
+			<input type="color" name="favColor" id="favColor"><br>
+			<label for="country">Which country:</label>
+			<select name="country" id="country">
+				<option value="noSelection">No selection</option>
+				<option value="chile">Chile</option>
+				<option value="canada">Canada</option>
+				<option value="brazil">Brazil</option>
+				<option value="mexico">Mexico</option>
+				<option value="argentina">Argentina</option>
+			</select>
+		</fieldset><br>
+		<fieldset>
+			<legend>Your Indicators</legend>
+			<label for="heigth">Heigth:</label>
+			Short<input type="range" name="heigth" id="heigth" min="0" max="100" value="50">Tall<br>
+			<label for="salary">Salary:</label>
+			Poor<input type="Range" name="salary" id="salary" min="0" max="100" value="50">Rich<br>
+		</fieldset><br>
+		<fieldset>
+			<legend>Your Contact Information</legend>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" required><br>
+			<label for="phone">Mobile:</label>
+			<input type="tel" name="phone" id="phone"><br>
+			<label for="address">Address:</label>
+			<textarea rows="3" cols="60" name="address" id="address"
+					  placeholder="Please, enter your Address here.">
+			</textarea><br>
+			Method to contact you:
+			<input type="checkbox" name="contact" id="email" value="email">
+			<label for="email">Email</label>
+			<input type="checkbox" name="contact" id="wpp" value="wpp">
+			<label for="wpp">Whatsapp</label>
+			<input type="checkbox" name="contact" id="in-app-chat" value="in-app-chat">
+			<label for="in-app-chat">In-app chat</label>
+		</fieldset><br>
+		<input type="submit" value="Submit"><br>
+	</form>
+</body>
+</html>
